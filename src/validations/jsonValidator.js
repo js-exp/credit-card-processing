@@ -6,7 +6,7 @@ import jsonschema from 'jsonschema';
  * @params {object} - expected schema
  * @returns {boolean} -  true if valid
  */
-function validate(object, schema) {
+function validate (object, schema) {
   return jsonschema.validate(object, schema).errors.length === 0;
 }
 
@@ -16,7 +16,7 @@ function validate(object, schema) {
  * @params {object} - expected schema
  * @returns {array} -  list of errors
  */
-function getErrors(object, schema) {
+function getErrors (object, schema) {
   return jsonschema.validate(object, schema).errors;
 }
 

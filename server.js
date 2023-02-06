@@ -12,4 +12,4 @@ app.use(helmet());
 app.use(cors());
 app.use('/credit-card', creditCard);
 
-export default app;
+export default app

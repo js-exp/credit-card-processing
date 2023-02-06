@@ -6,10 +6,16 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha tests --timeout 10000 --exit"
+    "test": "mocha tests --timeout 10000 --exit",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "chai": "^4.3.7",
+    "eslint": "^8.33.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "mocha": "^10.2.0"
   },
   "dependencies": {
