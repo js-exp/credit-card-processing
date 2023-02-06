@@ -10,7 +10,7 @@ describe('get credit card details', () => {
   after(async () => await close());
 
   const creditCardDetails = {
-    name: 'buddharaj ambhore',
+    name: 'test user',
     cardNumber: '8763304723150326838',
     limit: '100'
   };
@@ -44,7 +44,7 @@ describe('get credit card details', () => {
 
   it('Should throw error on missing required fields(no card number) -  validation error', async () => {
     const creditCardDetails = {
-      name: 'buddharaj ambhore',
+      name: 'test user',
       limit: '100'
     };
     try {

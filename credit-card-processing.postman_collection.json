@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"buddharaj ambhore\",\r\n  \"cardNumber\": \"2460435619883\",\r\n  \"limit\": \"1000\"\r\n}",
+					"raw": "{\r\n  \"name\": \"test user\",\r\n  \"cardNumber\": \"2460435619883\",\r\n  \"limit\": \"1000\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -41,7 +41,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"buddharaj ambhore\",\r\n  \"cardNumber\": \"2460dgsg435\",\r\n  \"limit\": \"1000\"\r\n}",
+							"raw": "{\r\n  \"name\": \"test user\",\r\n  \"cardNumber\": \"2460dgsg435\",\r\n  \"limit\": \"1000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -156,7 +156,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"buddharaj ambhore\",\r\n  \"cardNumber\": \"2460435618389024371\",\r\n  \"limit\": \"100\"\r\n}",
+							"raw": "{\r\n  \"name\": \"test user\",\r\n  \"cardNumber\": \"2460435618389024371\",\r\n  \"limit\": \"100\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -603,7 +603,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "[\n    {\n        \"_id\": \"63e046970e8df44b313a9beb\",\n        \"name\": \"Publicis Sapient\",\n        \"cardNumber\": \"1538022518270842720\",\n        \"limit\": 100,\n        \"balance\": 0,\n        \"currency\": \"£\"\n    },\n    {\n        \"_id\": \"63e046fe0e8df44b313a9bef\",\n        \"name\": \"buddharaj ambhore\",\n        \"cardNumber\": \"2460435618389024371\",\n        \"limit\": 1000,\n        \"balance\": 0,\n        \"currency\": \"£\"\n    }\n]"
+					"body": "[\n    {\n        \"_id\": \"63e046970e8df44b313a9beb\",\n        \"name\": \"Publicis Sapient\",\n        \"cardNumber\": \"1538022518270842720\",\n        \"limit\": 100,\n        \"balance\": 0,\n        \"currency\": \"£\"\n    },\n    {\n        \"_id\": \"63e046fe0e8df44b313a9bef\",\n        \"name\": \"test user\",\n        \"cardNumber\": \"2460435618389024371\",\n        \"limit\": 1000,\n        \"balance\": 0,\n        \"currency\": \"£\"\n    }\n]"
 				}
 			]
 		}

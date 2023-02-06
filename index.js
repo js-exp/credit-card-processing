@@ -1,5 +1,4 @@
 
-// refer this https://rahmanfadhil.com/test-express-with-supertest/
 import app from './server.js';
 import { connect } from './src/database/conn.js';
 
