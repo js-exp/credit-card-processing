@@ -1,0 +1,23 @@
+{
+  "name": "credit-card-processing",
+  "version": "1.0.0",
+  "description": "an assignment to create a credit card processing REST API using in-memory server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests --timeout 10000 --exit"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "jsonschema": "^1.4.1",
+    "mongodb-memory-server": "^8.11.4",
+    "mongoose": "^6.9.0"
+  }
+}
