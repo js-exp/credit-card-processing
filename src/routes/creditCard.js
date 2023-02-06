@@ -1,6 +1,6 @@
 import express from "express";
 import { store, list } from "../controllers/creditCardController.js";
-import { getCode } from "../utils/exception.utils.js";
+import { getCode } from "../utils/exception.js";
 
 const router = express.Router();
 

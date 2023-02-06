@@ -1,7 +1,7 @@
 import validateCreditCardSchema from "../validations/creditCardSchema.js";
 import * as validator from "..//validations/jsonValidator.js";
-import luhnCheck from "../utils/luhn.utils.js";
-import { throwException } from "../utils/exception.utils.js";
+import luhnCheck from "../utils/luhn.js";
+import { throwException } from "../utils/exception.js";
 import * as creditCardService from "../service/creditCard.js";
 
 /**
